@@ -21,7 +21,7 @@ target_include_directories(Class_Management_System PRIVATE
         ${CMAKE_SOURCE_DIR}/include
 )
 
-# 关键修复：正确的宏定义传递方式
+# 正确的宏定义传递方式
 target_compile_definitions(Class_Management_System PRIVATE
         DATA_DIR="${DATA_DIR_RELATIVE}"
 )
